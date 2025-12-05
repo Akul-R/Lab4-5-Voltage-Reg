@@ -1,3 +1,5 @@
-A voltage regulator made using an ATMega644PA and controlled by a host computer that communicates with the microcontroller using UART. Host software comes with a
-sleek and responsive UI that is fairly simple to use.
+# SPID V1.0 (Serial PID Controller)
+A voltage regulator made using an ATMega644PA and controlled by a host computer that communicates with the microcontroller using UART. Host software comes with a sleek and responsive UI that is fairly simple to use. Software can be used to set a target voltage and adjust PID constants and also comes with a graph to visualise the behaviour of the voltage
+![Picture of UI](UI.png)
 The PWM output is connected to an LPF (R = 100k, C = 220nF) and varying the duty cycle of the PWM wave allows you to vary the output voltage.
+
